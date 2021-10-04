@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Grid, Image, Card } from 'semantic-ui-react';
+import { Grid, Image, Card, CardContent } from 'semantic-ui-react';
 import 'semantic-ui-css/semantic.min.css';
 import Sun from '../assets/sun.png';
 import Rain from '../assets/rain.png'
@@ -39,6 +39,7 @@ function WeatherContainer() {
                                             <span className='date'>{weather.weather[0].description}</span>
                                         </Card.Description>
                                     </Card.Content>
+
                                 </Card>
                             </Grid.Column>
                         )
