@@ -28,7 +28,7 @@ function WeatherContainer() {
                         return (
                             <Grid.Column key={weather.id}>
                                 <Card>
-                                    <Image src={weather.main.temp > 282.80 ? Sun : Rain} wrapped ui={false} />
+                                    <Image src={weather.main.temp > 282.70 ? Sun : Rain} wrapped ui={false} />
                                     <Card.Content>
                                         <Card.Header>{weather.name}</Card.Header>
                                         <Card.Meta>

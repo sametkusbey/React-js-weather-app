@@ -45,17 +45,14 @@ body {
     overflow: hidden !important;
     overflow-x: hidden !important;
     overflow-y: hidden !important;
+    background-image: url("./assets/weather-app.png") !important;
 }
 
 .app-title {
     text-align: center;
-    margin-top: 8em !important;
+    margin-top: 13em !important;
 }
 
 .card {
     height: 20rem;
-}
-
-.image {
-    margin-top: 15px !important;
 }
